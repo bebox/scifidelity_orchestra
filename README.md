@@ -1,4 +1,4 @@
 scifidelity_jazz_orchestra
 ==========================
 
-Scifidelity Jazz Orchestra
+Scifidelity Jazz Orchestra Sheet Music
