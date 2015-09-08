@@ -1,12 +1,7 @@
 \version "2.19.25"
 \language "deutsch"
 
-\header {
-  title = "Por una Cabeza"
-  subtitle = "Wedding Stefanie & Raimund in Graz 5.9.2015."
-  composer = "Carlos Gardel"
-  poet = "Tango"
-}
+
 
 \paper {
   indent = 0
@@ -79,6 +74,14 @@ verse = \lyricmode {
   
 }
 
+\bookpart { 
+  \header {
+  title = "Por una Cabeza"
+  subtitle = "Wedding Stefanie & Raimund in Graz 5.9.2015."
+  composer = "Carlos Gardel"
+  poet = "Tango"
+  piece="C Instrument"
+}
 \score {
   <<
     \new ChordNames \chordNames
@@ -88,5 +91,68 @@ verse = \lyricmode {
   \layout { }
   \midi {
     \tempo 4=100
+  }
+}
+}
+
+\bookpart { 
+  \header {
+  title = "Por una Cabeza"
+  subtitle = "Wedding Stefanie & Raimund in Graz 5.9.2015."
+  composer = "Carlos Gardel"
+  poet = "Tango"
+  piece="Bb Instrument"
+}
+\score {
+  <<
+    \new ChordNames \transpose b c \chordNames
+    \new Staff {\transpose b c \melody }
+    \addlyrics { \verse }
+  >>
+  \layout { }
+%  \midi {
+%    \tempo 4=100
+%  }
+}
+}
+
+\bookpart { 
+  \header {
+  title = "Por una Cabeza"
+  subtitle = "Wedding Stefanie & Raimund in Graz 5.9.2015."
+  composer = "Carlos Gardel"
+  poet = "Tango"
+  piece="Eb Instrument"
+}
+\score {
+  <<
+    \new ChordNames \transpose es c \chordNames
+    \new Staff {\transpose es c \melody }
+    \addlyrics { \verse }
+  >>
+  \layout { }
+%  \midi {
+%    \tempo 4=100
+%  }
+}
+}
+
+\bookpart { 
+  \header {
+  title = "Por una Cabeza"
+  subtitle = "Wedding Stefanie & Raimund in Graz 5.9.2015."
+  composer = "Carlos Gardel"
+  poet = "Tango"
+  piece="Bass Instrument"
+}
+\score {
+  <<
+    \new ChordNames \chordNames
+    \new Staff {\clef bass \transpose c c,, \melody }
+    \addlyrics { \verse }
+  >>
+%  \layout { }
+%  \midi {
+%    \tempo 4=100
   }
 }
