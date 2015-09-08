@@ -59,7 +59,7 @@
 %	degrés 			markup				% écriture
 chJazzMusic = {
 % accords 1ere tierce mineure - 3  notes
-	< c ees ges >		-\markup \super "dim."		% :dim
+	< c ees ges >		-\markup \super "dim"		% :dim
 	< c ees g >		-\markup \acMin #""		% :m
 
 % accords 1ere tierce mineure - 4  notes

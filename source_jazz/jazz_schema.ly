@@ -1,4 +1,4 @@
-\version "2.17.29"
+\version "2.18.0"
 
 \include "../config/LilyJAZZ.ily"
 \include "../config/AccordsJazzDefs.ly"
@@ -62,4 +62,10 @@ akordi = \chordmode {
 convert-ly (GNU LilyPond) 2.17.95  convert-ly: Processing `'...
 Applying conversion: 2.17.0, 2.17.4, 2.17.5, 2.17.6, 2.17.11, 2.17.14,
 2.17.15, 2.17.18, 2.17.19, 2.17.20, 2.17.25, 2.17.27, 2.17.29
+%}
+
+
+%{
+convert-ly (GNU LilyPond) 2.18.2  convert-ly: Processing `'...
+Applying conversion: 2.17.97, 2.18.0
 %}
