@@ -144,7 +144,7 @@ chJazz = #(append (sequential-music-to-chord-exceptions chJazzMusic #t)ignatzekE
 		chordNameExceptions = #chJazz	% substitution de l'affichage des extensions
 		\override ChordName #'font-name = #"lilyjazzchord" 
 		%\override ChordName #'font-name = #"LilyJAZZ"
-		\override ChordName #'font-size = #2
+		\override ChordName #'font-size = #1
 	}
 }
 %-------------------------------
