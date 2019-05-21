@@ -1,4 +1,6 @@
-scifidelity_jazz_orchestra
+Scifidelity Orchestra
 ==========================
 
-Scifidelity Jazz Orchestra Sheet Music
+Scifidelity Orchestra Music Score files
+
+webpage: https://scifidelityorchestra.com/
